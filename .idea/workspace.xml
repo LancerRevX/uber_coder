@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac918876-62c1-407c-a260-a6a346e75562" name="Default Changelist" comment="" />
+    <list default="true" id="ac918876-62c1-407c-a260-a6a346e75562" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding/Huffman.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coding/Shannon-Fano.py" beforeDir="false" afterPath="$PROJECT_DIR$/coding/Shannon-Fano.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coding/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/coding/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ubercoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/ubercoder.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YXKeAM2d2JnYZaPGCRxegw1d2V" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,6 +32,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager">
@@ -37,7 +49,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\nikit\PycharmProjects\uber_coder\ubercoder.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ubercoder.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -66,29 +78,46 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="280" key="GridCell.Tab.0.bottom" timestamp="1583216151449">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="221" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583220187164">
+      <screen x="70" y="23" width="1370" height="877" />
+    </state>
+    <state x="221" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.23.1370.877@70.23.1370.877" timestamp="1583220187164" />
+    <state width="1345" height="230" key="GridCell.Tab.0.bottom" timestamp="1583226224264">
+      <screen x="74" y="23" width="1366" height="877" />
     </state>
     <state width="1899" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583216151449" />
-    <state width="1899" height="280" key="GridCell.Tab.0.center" timestamp="1583216151449">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1345" height="230" key="GridCell.Tab.0.bottom/70.23.1370.877@70.23.1370.877" timestamp="1583220822173" />
+    <state width="1345" height="230" key="GridCell.Tab.0.bottom/74.23.1366.877@74.23.1366.877" timestamp="1583226224264" />
+    <state width="1345" height="230" key="GridCell.Tab.0.center" timestamp="1583226224263">
+      <screen x="74" y="23" width="1366" height="877" />
     </state>
     <state width="1899" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583216151449" />
-    <state width="1899" height="280" key="GridCell.Tab.0.left" timestamp="1583216151449">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1345" height="230" key="GridCell.Tab.0.center/70.23.1370.877@70.23.1370.877" timestamp="1583220822172" />
+    <state width="1345" height="230" key="GridCell.Tab.0.center/74.23.1366.877@74.23.1366.877" timestamp="1583226224263" />
+    <state width="1345" height="230" key="GridCell.Tab.0.left" timestamp="1583226224262">
+      <screen x="74" y="23" width="1366" height="877" />
     </state>
     <state width="1899" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583216151449" />
-    <state width="1899" height="280" key="GridCell.Tab.0.right" timestamp="1583216151449">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1345" height="230" key="GridCell.Tab.0.left/70.23.1370.877@70.23.1370.877" timestamp="1583220822172" />
+    <state width="1345" height="230" key="GridCell.Tab.0.left/74.23.1366.877@74.23.1366.877" timestamp="1583226224262" />
+    <state width="1345" height="230" key="GridCell.Tab.0.right" timestamp="1583226224263">
+      <screen x="74" y="23" width="1366" height="877" />
     </state>
     <state width="1899" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583216151449" />
-    <state x="463" y="165" key="SettingsEditor" timestamp="1583211253482">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1345" height="230" key="GridCell.Tab.0.right/70.23.1370.877@70.23.1370.877" timestamp="1583220822173" />
+    <state width="1345" height="230" key="GridCell.Tab.0.right/74.23.1366.877@74.23.1366.877" timestamp="1583226224263" />
+    <state x="400" y="162" key="SettingsEditor" timestamp="1583220066797">
+      <screen x="70" y="23" width="1370" height="877" />
     </state>
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583211253482" />
+    <state x="400" y="162" key="SettingsEditor/70.23.1370.877@70.23.1370.877" timestamp="1583220066797" />
     <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1583210819712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583210819712" />
+    <state x="422" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1583220508977">
+      <screen x="70" y="23" width="1370" height="877" />
+    </state>
+    <state x="422" y="213" width="670" height="676" key="search.everywhere.popup/70.23.1370.877@70.23.1370.877" timestamp="1583220508977" />
   </component>
 </project>

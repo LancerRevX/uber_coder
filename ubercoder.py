@@ -14,27 +14,36 @@ class UberCoder(tkinter.Tk):
         self.geometry('512x256+256+128')
         
         tkinter.Label(self, text='Coding method').grid(row=0, columnspan=2)
-
-        from pkgutil import iter_modules
-        method_chooser = tkinter.ttk.Combobox(self)
-        method_chooser['values'] = coding.get_methods_list()
-        method_chooser.current(0)
-        method_chooser.grid(row=1, columnspan=2)
+        self.method_chooser = tkinter.ttk.Combobox(self)
+        self.method_chooser['values'] = coding.get_methods()
+        self.method_chooser.current(0)
+        self.method_chooser.grid(row=1, columnspan=2)
 
         tkinter.Label(self, text='Text').grid(row=2, column=0)
+        self.text = tkinter.Text(self)
+        self.text.grid(row=3, column=0, sticky='nswe')
+
         tkinter.Label(self, text='Code').grid(row=2, column=1)
-        tkinter.Text(self).grid(row=3, column=0, sticky='nswe')
-        tkinter.Text(self).grid(row=3, column=1, sticky='nswe')
+        self.code = tkinter.Text(self)
+        self.code.grid(row=3, column=1, sticky='nswe')
+
         text_buttons_frame = tkinter.Frame(self)
         text_buttons_frame.grid(row=4, column=0)
         tkinter.Button(text_buttons_frame, text='Load from file').pack(side='left')
         tkinter.Button(text_buttons_frame, text='Save to file').pack(side='left')
-        tkinter.Button(text_buttons_frame, text='Encode').pack(side='left')
+        tkinter.Button(text_buttons_frame, text='Encode', command=self.on_encode_button_clicked).pack(side='left')
         code_buttons_frame = tkinter.Frame(self)
         code_buttons_frame.grid(row=4, column=1)
         tkinter.Button(code_buttons_frame, text='Load from file').pack(side='left')
         tkinter.Button(code_buttons_frame, text='Save to file').pack(side='left')
         tkinter.Button(code_buttons_frame, text='Decode').pack(side='left')
+
+    def on_encode_button_clicked(self):
+        method = self.method_chooser.get()
+        text = self.text.get('1.0', 'end')
+        code = coding.encode(method, text)
+        self.code.delete('1.0', 'end')
+        self.code.insert('1.0', code)
 
 
 if __name__ == '__main__':
