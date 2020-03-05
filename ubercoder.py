@@ -40,7 +40,7 @@ class UberCoder(tkinter.Tk):
 
     def on_encode_button_clicked(self):
         method = self.method_chooser.get()
-        text = self.text.get('1.0', 'end')
+        text = self.text.get('1.0', 'end')[:-1]
         code = coding.encode(method, text)
         self.code.delete('1.0', 'end')
         self.code.insert('1.0', code)
